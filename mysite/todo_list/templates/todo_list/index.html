@@ -18,10 +18,17 @@
             </div>
         <div class="col-md-10 offset-md-1">
              <div class=" vh-100 bg-info text-white">
-                 <div class="h-75 col-md-10 bg-light offset-md-1">
+                 <div class="h-75 col-md-10 bg-black offset-md-1">
 
+                     {% for todo_action in todo_actions %}
+                     <div>
+                         {{ todo_action.todo_text }}
+                     </div>
+                    {% endfor %}
                  </div>
                  <div class="h-25 col-md-10 bg-warning offset-md-1">
+
+
 
                  </div>
         </div>
