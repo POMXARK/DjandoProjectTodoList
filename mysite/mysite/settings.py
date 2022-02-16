@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'todo_list.apps.TodoListConfig',
     'polls.apps.PollsConfig', # подключаемое к ПРОЕКТУ (mysite) ПРИЛОЖЕНИЕ (polls)
 ]
 
